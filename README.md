@@ -17,7 +17,7 @@
 |       | Ter  | 23   | Aula 05   | [Arrays e alocação dinâmica de memória](./aulas/aula05/aula05.md)|
 |       | Qui  | 25   | Aula 06   | [Strings, Streams, I/O](./aulas/aula06/aula06.md) / [Tutorial GitHub Classroom](./labs/githubclassroom/tutorial.md) |
 |       | Ter  | 30   | Aula 07   | [Listas Encadeadas I](./aulas/aula07/aula07.md)|
-| Out   | Qui  | 02   | Aula 08   | [Listas Enca]deadas II](./aulas/aula08/aula08.md)| 
+| Out   | Qui  | 02   | Aula 08   | [Listas Encadeadas II](./aulas/aula08/aula08.md)| 
 |       | Ter  | 07   | Aula 09   |                                                         |
 |       | Qui  | 09   | Aula 10   |                                                         |
 |       | Ter  | 14   | Aula 11   |                                                         |
