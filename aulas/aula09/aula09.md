@@ -1,15 +1,14 @@
-# Aula 08: Listas Encadeadas II
-
+# Aula 09: Listas Encadeadas II
 
 ## Operações básicas
 
 0) Inicialização de uma Lista vazia (OK)
-1) Acesso por posição(OK)
+1) Acesso por posição
 2) Busca por valor
 3) Inserção
 4) Remoção
 
-<div style="color:gray;">
+<div style="color:grey;">
 
 ### Acesso por posição
 
@@ -27,8 +26,6 @@
 * Sabemos que uma referência `cur` é válida, i.e. se referencia um elemento dentro dos limites do tamanho da lista, se `cur->next != NULL`.
 
 
-</div>
-
 ### Busca por valor 
 
 Ideia semelhante à busca por posição, varrendo a lista um Nó de cada vez até encontrar o valor procurado ou atingir o último elemento da lista (**cauda**).
@@ -42,7 +39,6 @@ Ideia semelhante à busca por posição, varrendo a lista um Nó de cada vez at�
 **IMPORTANTE**: 
 * Localizar um elemento, seja por posição, seja por valor, requer percorrer a lista desde o início, um elemento de cada vez, até alcançar a posição pretendida.
 * No pior caso, isso pode exigir visitar todos os elementos da lista.
-
 
 ### Inserção
 
@@ -102,7 +98,7 @@ Passo 3) ajusta o sucessor do cursor
 * Uma vez obtida a referência para a posição corrente, inserir um novo elemento nesse posição requer apenas uma quantidade fixa (constante) de operações.
 * Porém, para chegar à posição desejada, precisamos percorrer a lista como explicado acima.
 
-<div style="color:gray;">
+</div>
 
 ### Remoção
 
@@ -152,7 +148,6 @@ Passo 3) apaga o nó pretendido da memória
 * Uma vez obtida a referência para a posição a ser removida, a remoção em si requer apenas uma quantidade fixa (constante) de operações.
 * Porém, para chegar à posição desejada, precisamos percorrer a lista como explicado acima.
 
-</div>
 
 <a name="referencias"></a>
 ## Referências
@@ -162,6 +157,6 @@ Passo 3) apaga o nó pretendido da memória
 
 
 ___
-[[Código-fonte: /src]](./src)   [[< Anterior]](../aula07/aula07.md) [[Próximo >]](../aula09/aula09.md)  [[Índice ^]](../README.md)
+[[Código-fonte: /src]](./src)   [[< Anterior]](../aula08/aula08.md) [[Próximo >]](../aula10/aula10.md)  [[Índice ^]](../README.md)
 
 

@@ -91,6 +91,7 @@ head ---->| \ |  -|--->| 2 |  -|--->| 3 |  -|--->| 5 |  -|--->| 7 |  -|---+
 * Desta forma, o primeiro elemento, de índice `[0]`) é representado por um ponteiro para o nó sentinela (i.e. com o mesmo valor de `head`).
 * Sabemos que uma referência `cur` é válida, i.e. se referencia um elemento dentro dos limites do tamanho da lista, se `cur->next != NULL`.
 
+<div style="color:gray;"> 
 
 ### Busca por valor 
 
@@ -212,6 +213,8 @@ Passo 3) apaga o nó pretendido da memória
 * Uma vez obtida a referência para a posição a ser removida, a remoção em si requer apenas uma quantidade fixa (constante) de operações.
 * Porém, para chegar à posição desejada, precisamos percorrer a lista como explicado acima.
 
+
+</div>
 
 <a name="referencias"></a>
 ## Referências

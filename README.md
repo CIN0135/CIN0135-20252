@@ -24,19 +24,18 @@
 |       | Qui  | 16   | Aula 12   |                                                         |
 |       | Ter  | 21   | Aula 13   |                                                         |
 |       | Qui  | 23   | Prova     | **PROVA 1**                                             |
-|       | Ter  | 28   | Feriado   | *Dia do Servidor Público Federal*                       |
-|       | Qui  | 30   | Aula 14   |                                                         |
-| Nov   | Ter  | 04   | Aula 15   |                                                         |
-|       | Qui  | 06   | Aula 16   |                                                         |
-|       | Ter  | 11   | Aula 17   |                                                         |
-|       | Qui  | 13   | Aula 18   |                                                         |
-|       | Ter  | 18   | Aula 19   |                                                         |
+|       | Ter  | 28   | Aula 14   |                                                         |
+|       | Qui  | 30   | Aula 15   |                                                         |
+| Nov   | Ter  | 04   | Aula 16   |                                                         |
+|       | Qui  | 06   | Aula 17   |                                                         |
+|       | Ter  | 11   | Aula 18   |                                                         |
+|       | Qui  | 13   | Aula 19   |                                                         |
+|       | Ter  | 18   | Aula 20   |                                                         |
 |       | Qui  | 20   | Feriado   | *Dia da Consciência Negra*                              |
-|       | Ter  | 25   | Aula 20   |                                                         |
-|       | Qui  | 27   | Aula 21   |                                                         |
-| Dez   | Ter  | 02   | Aula 22   |                                                         |
-|       | Qui  | 04   | Aula 23   |                                                         |
-|       | Sab  | 06   | Aula 24   |                                                         |
+|       | Ter  | 25   | Aula 21   |                                                         |
+|       | Qui  | 27   | Aula 22   |                                                         |
+| Dez   | Ter  | 02   | Aula 23   |                                                         |
+|       | Qui  | 04   | Aula 24   |                                                         |
 |       | Ter  | 09   | Aula 25   |                                                         |
 |       | Qui  | 11   | Prova     | **PROVA 2**                                             | 
 |       | Ter  | 16   | Aula 26   |                                                         |
