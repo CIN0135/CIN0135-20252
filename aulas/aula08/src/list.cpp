@@ -78,6 +78,23 @@ void listInsert(Node *head, size_t pos, int value)
     cur->next = newNode;
 }
 
+// remove nó da posição pos
+void listDelete(Node *head, size_t pos) 
+{
+    // passo 1
+    Node *cur = head;
+    size_t i = 0;
+    while ( i < pos && cur->next != nullptr ) {
+        cur = cur->next;
+        i++;
+    }
+    Node *toDie = cur->next;
+    assert(toDie);
+    cur->next = toDie->next;
+    delete toDie;
+}
+
+
 // cria nova lista vazia
 Node *listNew() 
 {
@@ -96,6 +113,8 @@ int main()
     }
 
     listInsert(head, 3, 25);
+
+    listDelete(head, 10);
 
     listPrint(head);
 }

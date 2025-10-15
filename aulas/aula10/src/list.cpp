@@ -2,106 +2,134 @@
 #include <cassert>
 
 
-struct Node {
-	int val;
-	Node* next;
-};
-
-
-Node* newNode(int v) {
-	Node* ret = new Node;
-	(*ret).val = v;
-	ret->next = nullptr;
-	return ret;
-}
-
-Node *initEmptyList() {
-	return newNode(-1);
-}
-
-
-
-Node* listNodeAt(Node *head, size_t pos) {
-	Node *cur = head;
-	size_t i = 0;
-	while( cur->next != nullptr && i < pos ) {
-		cur = cur->next;
-		i++;
-	}
-	return cur;
-} 
-
-
-Node* listFind(Node *head, int value) {
-	Node *cur = head;
-	while( cur->next != nullptr && cur->next->val != value ) {
-		cur = cur->next;
-	}
-	return cur;
-} 
-
-
-void listInsert(Node *cur, int value) {
-	assert(cur!=nullptr);
-	Node *nn = newNode(value);
-	nn->next = cur->next;
-	cur->next = nn;
-}
-
-
-void listInsertAt(Node *head, size_t pos, int value) {
-	listInsert(listNodeAt(head, pos), value);
-}
-
-
-void listDelete(Node* cur) {
-	assert(cur->next != nullptr);
-	Node *toDie = cur->next;
-	cur->next = toDie->next;
-	delete toDie;
-}
-
-void listDeleteAt(Node *head, size_t pos) {
-	listDelete(listNodeAt(head, pos));
-}
-
-
 
 class LinkedList {
-public:
-	LinkedList();
-	size_t size() {
-		return sz;
-	};
-	void append(int value);
-	//void insert(size_t pos, int value);
-	//int  remove(size_t pos);
-	//int  at(size_t pos);
+
 private:
-	Node *head;
-	size_t sz;
+
+    struct Node {
+        int val;
+        Node* next;
+    };
+
+    Node *head;
+    size_t sz;
+
+public:
+
+    LinkedList();
+
+    size_t size() { // inline
+        return sz;
+    }
+    void print();
+    int at(size_t pos);
+    size_t find(int value);
+    void insert(size_t pos, int value);
+    void remove(size_t pos);
+
 };
 
-LinkedList::LinkedList() {
-	head = newNode(-1);
-	sz = 0;
+LinkedList::LinkedList() 
+{
+    head = new Node;
+    head->val = -1;
+    head->next = nullptr;
+    sz = 0;
 }
 
-void LinkedList::append(int val) {
-	Node *nn = newNode(val);
-	Node *cur = head;
-	while (cur->next != nullptr) {
-		cur = cur->next;
-	}
-	cur->next = nn;
-	sz++;
+void LinkedList::print() 
+{
+    Node *cur = head;
+    size_t i = 0;
+    //while ( (*cur).next != nullptr ) {
+    while ( cur->next != nullptr ) {
+        std::cout << "list[" << i++ << "] = " << cur->next->val << std::endl;
+        cur = cur->next;
+    }
 }
 
-int main() {
-	LinkedList list;
-	for (int val = 10; val < 100; val+=10) {
-		list.append(val);
-		std::cout << "size = " << list.size() << std::endl;
-	}	
+// retorna uma copia do elemento da lista na posicao pos
+// pre-condicao: pos < tamanho da lista
+int LinkedList::at(size_t pos)
+{
+    assert(pos < size());
+    Node *cur = head;
+    size_t i = 0;
+    while ( i < pos && cur->next != nullptr ) {
+        cur = cur->next;
+        i++;
+    }
+    return cur->next->val;
+}
 
+// retorna a posicao da primeira ocorrencia de value na lista, se houver
+// ou o tamanho da lista se não houver.
+size_t LinkedList::find(int value) 
+{
+    Node *cur = head;
+    size_t i = 0;
+    while ( cur->next != nullptr && cur->next->val != value ) {
+        cur = cur->next;
+        i++;
+    }
+    return i;
+}
+
+
+// insere um novo nó de valor value na posiçao pos
+// pos = 0 --> insere no inicio da lista
+// pos >= tam. da lista --> insere no final
+void LinkedList::insert(size_t pos, int value)
+{
+    // passo 1
+    Node *cur = head;
+    size_t i = 0;
+    while ( i < pos && cur->next != nullptr ) {
+        cur = cur->next;
+        i++;
+    }
+    // passo 2
+    Node *newNode = new Node;
+    newNode->val = value;
+    // passo 3
+    newNode->next = cur->next;
+    cur->next = newNode;
+    sz++;
+}
+
+// remove nó da posição pos
+void LinkedList::remove(size_t pos) 
+{
+    // passo 1
+    Node *cur = head;
+    size_t i = 0;
+    while ( i < pos && cur->next != nullptr ) {
+        cur = cur->next;
+        i++;
+    }
+    Node *toDie = cur->next;
+    assert(toDie);
+    cur->next = toDie->next;
+    delete toDie;
+    sz--;
+}
+
+
+int main() 
+{
+    LinkedList list; // cria lista vazia
+
+
+    size_t size = 0; // insere 0, 10, 20, 30, 30
+    for (int v = 0; v < 50; v += 10) {
+        list.insert(size, v);
+        size++;
+    }
+
+    list.insert(3, 25); // insere 25 entre 20 e 30
+
+    list.remove(4); // remove 30
+
+    list.print();
 }
