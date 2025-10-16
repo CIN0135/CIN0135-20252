@@ -21,10 +21,12 @@
 |       | Ter  | 07   | ~~Aula~~  | Aula suspensa por motivo de saúde                       |
 |       | Qui  | 09   | ~~Aula~~  | Aula suspensa por motivo de saúde                       |
 |       | Ter  | 14   | Aula 09   | [Listas Encadeadas III](./aulas/aula09/aula09.md)                                                      |
-|       | Qui  | 16   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md)  |
-|       | Ter  | 21   | Aula      |                                                         |
-|       | Qui  | 23   | Prova     | **PROVA 1**                                             |
-|       | Ter  | 28   | Aula      |                                                         |
+|       | Qua  | 15   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md) (**reposição 07/10**)  |
+|       | Qui  | 16   | Aula 11   |                                                         |
+|       | Ter  | 21   | Aula 12   |                                                         |
+|       | Qua  | 22   | Aula 13   | (**reposição 09/10**)                                   |
+|       | Qui  | 23   | Aula 14   |                                                         |
+|       | Ter  | 28   | Aula      | **PROVA 1**                                             |
 |       | Qui  | 30   | Aula 15   |                                                         |
 | Nov   | Ter  | 04   | Aula 16   |                                                         |
 |       | Qui  | 06   | Aula 17   |                                                         |
@@ -38,8 +40,8 @@
 |       | Qui  | 04   | Aula 24   |                                                         |
 |       | Ter  | 09   | Aula 25   |                                                         |
 |       | Qui  | 11   | Prova     | **PROVA 2**                                             | 
-|       | Ter  | 16   | Aula 26   |                                                         |
-|       | Qui  | 18   | Prova     | **PROVA FINAL**                                          |
+|       | Ter  | 16   | Aula 26   | Revisão                                                 |
+|       | Qui  | 18   | Prova     | **PROVA FINAL**                                         |
 
 
 - 2 Unidades
