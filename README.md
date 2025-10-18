@@ -22,7 +22,7 @@
 |       | Qui  | 09   | ~~Aula~~  | Aula suspensa por motivo de saúde                       |
 |       | Ter  | 14   | Aula 09   | [Listas Encadeadas III](./aulas/aula09/aula09.md)                                                      |
 |       | Qua  | 15   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md) (**reposição 07/10**)  |
-|       | Qui  | 16   | Aula 11   |                                                         |
+|       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)                                                        |
 |       | Ter  | 21   | Aula 12   |                                                         |
 |       | Qua  | 22   | Aula 13   | (**reposição 09/10**)                                   |
 |       | Qui  | 23   | Aula 14   |                                                         |
