@@ -23,7 +23,7 @@
 |       | Ter  | 14   | Aula 09   | [Listas Encadeadas III](./aulas/aula09/aula09.md)                                                      |
 |       | Qua  | 15   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md) (**reposição 07/10**)  |
 |       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)                                                        |
-|       | Ter  | 21   | Aula 12   |                                                         |
+|       | Ter  | 21   | Aula 12   | [Pilhas, Filas, OO:Composição](./aulas/aula12/aula12.md)                                                        |
 |       | Qua  | 22   | Aula 13   | (**reposição 09/10**)                                   |
 |       | Qui  | 23   | Aula 14   |                                                         |
 |       | Ter  | 28   | Aula      | **PROVA 1**                                             |
