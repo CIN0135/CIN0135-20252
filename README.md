@@ -24,8 +24,8 @@
 |       | Qua  | 15   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md) (**reposição 07/10**)  |
 |       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)                                                        |
 |       | Ter  | 21   | Aula 12   | [Pilhas, Filas, OO:Composição](./aulas/aula12/aula12.md)                                                        |
-|       | Qua  | 22   | Aula 13   | (**reposição 09/10**)                                   |
-|       | Qui  | 23   | Aula 14   |                                                         |
+|       | Qui  | 23   | Aula 13   | [Arrays dinâmicos](./aulas/aula13/aula13.md)            |
+|       | Sex  | 24   | Aula 14   | (**reposição 09/10**)                                   |
 |       | Ter  | 28   | Aula      | **PROVA 1**                                             |
 |       | Qui  | 30   | Aula 15   |                                                         |
 | Nov   | Ter  | 04   | Aula 16   |                                                         |
