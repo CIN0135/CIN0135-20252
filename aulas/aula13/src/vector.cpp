@@ -81,18 +81,6 @@ int _main(int argc, char **argv) {
 int main(int argc, char **argv) {
     int n = std::stoi(argv[1]);
 
-    // Create a random device to seed the engine
-    std::random_device rd; 
-
-    // Create a Mersenne Twister engine seeded with the random device
-    std::mt19937 gen(rd()); 
-
-    // Define a uniform integer distribution for numbers between 1 and 100
-    std::uniform_int_distribution<> distrib(0, n); 
-
-    // Generate and print a random number
-
-
     Vector v;
     for (size_t i = 0; i < n; ++i) {
         int j = v.size()?rand()%v.size():0;
