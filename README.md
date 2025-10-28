@@ -25,10 +25,10 @@
 |       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)                                                        |
 |       | Ter  | 21   | Aula 12   | [Pilhas, Filas, OO:Composição](./aulas/aula12/aula12.md)                                                        |
 |       | Qui  | 23   | Aula 13   | [Arrays dinâmicos](./aulas/aula13/aula13.md)            |
-|       | Sex  | 24   | Aula 14   | (**reposição 09/10**)                                   |
-|       | Ter  | 28   | Aula      | **PROVA 1**                                             |
-|       | Qui  | 30   | Aula 15   |                                                         |
-| Nov   | Ter  | 04   | Aula 16   |                                                         |
+|       | Ter  | 28   | Aula 14   | [Herança e Polimorfismo](./aulas/aula14/aula14.md) |
+|       | Qui  | 30   | Prova   | PROVA 1                                                        |
+| Nov   | Ter  | 04   | Aula 15   |                                                         |
+|       | Qua  | 05   | Aula 16   | **(reposição 09/10)**  | 
 |       | Qui  | 06   | Aula 17   |                                                         |
 |       | Ter  | 11   | Aula 18   |                                                         |
 |       | Qui  | 13   | Aula 19   |                                                         |
