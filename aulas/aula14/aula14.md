@@ -133,6 +133,6 @@ int main() {
 [Herança em C++](../../cpp/1_19_inheritance_idx.md)
 
 ___
-[[Código-fonte: /src]](./src)   [[< Anterior]](../aula13/aula13.md) [[Próximo >]](../aula15/aula15.md)  [[Índice ^]](../index.md)
+[[Código-fonte: /src]](./src)   [[< Anterior]](../aula13/aula13.md) [[Próximo >]](../aula15/aula15.md)  [[Índice ^]](../README.md)
 
 
