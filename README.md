@@ -20,19 +20,19 @@
 | Out   | Qui  | 02   | Aula 08   | [Listas Encadeadas II](./aulas/aula08/aula08.md)| 
 |       | Ter  | 07   | ~~Aula~~  | Aula suspensa por motivo de saúde                       |
 |       | Qui  | 09   | ~~Aula~~  | Aula suspensa por motivo de saúde                       |
-|       | Ter  | 14   | Aula 09   | [Listas Encadeadas III](./aulas/aula09/aula09.md)                                                      |
+|       | Ter  | 14   | Aula 09   | [Listas Encadeadas III](./aulas/aula09/aula09.md)       |
 |       | Qua  | 15   | Aula 10   | [Introdução à Programação Orientada a Objetos](./aulas/aula10/aula10.md) (**reposição 07/10**)  |
-|       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)                                                        |
-|       | Ter  | 21   | Aula 12   | [Pilhas, Filas, OO:Composição](./aulas/aula12/aula12.md)                                                        |
+|       | Qui  | 16   | Aula 11   | [Construtores e destrutores](./aulas/aula11/aula11.md)  |
+|       | Ter  | 21   | Aula 12   | [Pilhas, Filas, OO:Composição](./aulas/aula12/aula12.md)|
 |       | Qui  | 23   | Aula 13   | [Arrays dinâmicos](./aulas/aula13/aula13.md)            |
-|       | Ter  | 28   | Aula 14   | [Herança e Polimorfismo](./aulas/aula14/aula14.md) |
-|       | Qui  | 30   | Prova     | PROVA 1                                                        |
+|       | Ter  | 28   | Aula 14   | [Herança e Polimorfismo](./aulas/aula14/aula14.md)      |
+|       | Qui  | 30   | Prova     | PROVA 1                                                 |
 | Nov   | Ter  | 04   | Aula 15   | [Programação Genérica (templates)](./aulas/aula15/aula15.md)     |
-|       | Qui  | 06   | Aula 16   |                                                         |
-|       | Ter  | 11   | Aula 17   |                                                         |
-|       | Qui  | 13   | Aula 18   |                                                         |
-|       | Ter  | 18   | Aula 19   |                                                         |
-|       | Qua  | 19   | Aula 20   | **(reposição 09/10)**  | 
+|       | Qui  | 06   | Aula 16   | [Hash tables I: Definição, funções de dispersão](./aulas/aula16/aula16.md)               |
+|       | Ter  | 11   | Aula 17   | [Hash tables II: resolução de colisões por encadeamento](./aulas/aula17/aula17.md)              |
+|       | Qui  | 13   | Aula 18   | [Hash tables III: resolução de colisões por endereçamento aberto](./aulas/aula18/aula18.md)             |
+|       | Ter  | 18   | Aula 19   | [Hash tables IV: aplicações - hash sets  e dicionários](./aulas/aula19/aula19.md)  |
+|       | Qua  | 19   | Aula 20   | **(reposição 09/10)**                                   | 
 |       | Qui  | 20   | Feriado   | *Dia da Consciência Negra*                              |
 |       | Ter  | 25   | Aula 21   |                                                         |
 |       | Qui  | 27   | Aula 22   |                                                         |

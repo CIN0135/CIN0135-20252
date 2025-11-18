@@ -78,4 +78,4 @@ $$
 
 
 ___
-[[Código-fonte: /src]](./src)   [[< Anterior]](../aula16/aula16.md) [[Próximo >]](../aula18/aula18.md) [[Índice ^]](../index.md)
+[[Código-fonte: /src]](./src)   [[< Anterior]](../aula16/aula16.md) [[Próximo >]](../aula18/aula18.md) [[Índice ^]](../README.md)
