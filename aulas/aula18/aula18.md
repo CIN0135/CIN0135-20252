@@ -94,4 +94,4 @@ $$
 
 
 ___
-[[Código-fonte: /src]](./src)   [[< Anterior]](../aula17/aula17.md) [[Próximo >]](../aula19/aula19.md) [[Índice ^]](../index.md)
+[[Código-fonte: /src]](./src)   [[< Anterior]](../aula17/aula17.md) [[Próximo >]](../aula19/aula19.md) [[Índice ^]](../README.md)

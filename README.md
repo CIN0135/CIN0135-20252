@@ -28,10 +28,10 @@
 |       | Ter  | 28   | Aula 14   | [Herança e Polimorfismo](./aulas/aula14/aula14.md)      |
 |       | Qui  | 30   | Prova     | PROVA 1                                                 |
 | Nov   | Ter  | 04   | Aula 15   | [Programação Genérica (templates)](./aulas/aula15/aula15.md)     |
-|       | Qui  | 06   | Aula 16   | [Hash tables I](./aulas/aula16/aula16.md)               |
-|       | Ter  | 11   | Aula 17   | [Hash tables II](./aulas/aula17/aula17.md)              |
-|       | Qui  | 13   | Aula 18   | [Hash tables III](./aulas/aula18/aula18.md)             |
-|       | Ter  | 18   | Aula 19   |                                                         |
+|       | Qui  | 06   | Aula 16   | [Hash tables I: Definição, funções de dispersão](./aulas/aula16/aula16.md)               |
+|       | Ter  | 11   | Aula 17   | [Hash tables II: resolução de colisões por encadeamento](./aulas/aula17/aula17.md)              |
+|       | Qui  | 13   | Aula 18   | [Hash tables III: resolução de colisões por endereçamento aberto](./aulas/aula18/aula18.md)             |
+|       | Ter  | 18   | Aula 19   | [Hash tables IV: aplicações - hash sets  e dicionários](./aulas/aula19/aula19.md)  |
 |       | Qua  | 19   | Aula 20   | **(reposição 09/10)**                                   | 
 |       | Qui  | 20   | Feriado   | *Dia da Consciência Negra*                              |
 |       | Ter  | 25   | Aula 21   |                                                         |
