@@ -32,15 +32,14 @@
 |       | Ter  | 11   | Aula 17   | [Hash tables II: resolução de colisões por encadeamento](./aulas/aula17/aula17.md)              |
 |       | Qui  | 13   | Aula 18   | [Hash tables III: resolução de colisões por endereçamento aberto](./aulas/aula18/aula18.md)             |
 |       | Ter  | 18   | Aula 19   | [Hash tables IV: aplicações - hash sets  e dicionários](./aulas/aula19/aula19.md)  |
-|       | Qua  | 19   | Aula 20   | **(reposição 09/10)**                                   | 
 |       | Qui  | 20   | Feriado   | *Dia da Consciência Negra*                              |
-|       | Ter  | 25   | Aula 21   |                                                         |
-|       | Qui  | 27   | Aula 22   |                                                         |
-| Dez   | Ter  | 02   | Aula 23   |                                                         |
-|       | Qui  | 04   | Aula 24   |                                                         |
-|       | Ter  | 09   | Aula 25   |                                                         |
+|       | Ter  | 25   | Aula 20   | [Árvores I](./aulas/aula20/aula20.md)                   |
+|       | Qui  | 27   | Aula 21   | [Árvores II](./aulas/aula21/aula21.md)                  |
+| Dez   | Ter  | 02   | Aula 22   |                                                         |
+|       | Qui  | 04   | Aula 23   |                                                         |
+|       | Ter  | 09   | Aula 24   |                                                         |
 |       | Qui  | 11   | Prova     | **PROVA 2**                                             | 
-|       | Ter  | 16   | Aula 26   | Revisão                                                 |
+|       | Qui  | 16   | Prova     | **Segunda Chamada**                                     | 
 |       | Qui  | 18   | Prova     | **PROVA FINAL**                                         |
 
 
