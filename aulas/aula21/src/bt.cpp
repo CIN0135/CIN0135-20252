@@ -13,7 +13,8 @@ Node *buildExampleBT() {
 
     Node *n3 = new Node(3);
     Node *n7 = new Node(7);
-    Node *n13 = new Node(13);
+    Node *n15 = new Node(15);
+    Node *n13 = new Node(13, nullptr, n15);
     Node *n5 = new Node(5, n3, n7);
     Node *n11 = new Node(11, nullptr, n13);
     Node *n9 = new Node(9, n5, n11);
@@ -21,18 +22,19 @@ Node *buildExampleBT() {
     return n9;
 }
 
-void visit(Node *root) {
+void visit(Node *root, int level=0) {
+    for (int i=0; i < level; i++) std::cout << "  ";
     std::cout << root->val << std::endl;
 }
 
-void preOrder(Node *root) 
+void preOrder(Node *root, int level=0) 
 {
     if (root == nullptr) {
         return;
     }
-    visit(root);
-    preOrder(root->left);
-    preOrder(root->right);
+    visit(root, level);
+    preOrder(root->left, level+1);
+    preOrder(root->right, level+1);
 }
 
 void postOrder(Node *root) 
@@ -46,15 +48,25 @@ void postOrder(Node *root)
 }
 
 
-void inOrder(Node *root) 
+void inOrder(Node *root, int level=0) 
 {
     if (root == nullptr) {
         return;
     }
-    inOrder(root->left);
-    visit(root);
-    inOrder(root->right);
+    inOrder(root->left, level+1);
+    visit(root, level);
+    inOrder(root->right, level+1);
 }
+
+
+int height(Node *root) {
+    if (root == nullptr) return 0;
+    int hl = height(root->left);
+    int hr = height(root->right);
+    return 1 + std::max(hl, hr);
+}
+
+
 
 int main() {
     Node *root = buildExampleBT();
@@ -76,5 +88,6 @@ int main() {
             -
             13
     */
-      
+    int h = height(root);
+    std::cout << "height = " << h << std::endl;
 }
