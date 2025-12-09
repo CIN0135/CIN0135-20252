@@ -35,7 +35,7 @@
 |       | Qui  | 20   | Feriado   | *Dia da Consciência Negra*                              |
 |       | Ter  | 25   | Aula 20   | [Árvores I](./aulas/aula20/aula20.md)                   |
 |       | Qui  | 27   | Aula 21   | [Árvores II](./aulas/aula21/aula21.md)                  |
-| Dez   | Ter  | 02   | Aula 22   | [Árvores III])(./aulas/aula22/aula22.md)                |
+| Dez   | Ter  | 02   | Aula 22   | [Árvores III](./aulas/aula22/aula22.md)                |
 |       | Qui  | 04   | Aula 23   |                                                         |
 |       | Ter  | 09   | Aula 24   |                                                         |
 |       | Qui  | 11   | Prova     | **PROVA 2**                                             | 
